@@ -1,6 +1,6 @@
-# 42 Header for VSCode
+# 42 SP Header for VSCode
 
-This extension provides the 42 header integration in VS Code.
+This Unofficial extension provides the 42 header integration in VS Code. with a small adjustment in the header (SP).
 
 ```bash
 # **************************************************************************** #
@@ -11,7 +11,7 @@ This extension provides the 42 header integration in VS Code.
 #    By: aporto <xxxxxx@xxxxxx.xxx>                 +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2013/11/18 13:37:42 by aporto            #+#    #+#              #
-#    Updated: 2021/11/05 13:11:04 by aporto           ###   ########.sp        #
+#    Updated: 2021/11/05 13:11:04 by aporto           ###   ########sp.org.br  #
 #                                                                              #
 # **************************************************************************** #
 ```
