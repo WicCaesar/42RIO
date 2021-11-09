@@ -45,6 +45,8 @@ To override these values, specify these properties in *User Settings* :
 }
 ```
 
+fork of [kube](https://github.com/kube/vscode-42header/).
+
 ## License
 
 MIT
