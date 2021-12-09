@@ -26,13 +26,13 @@ export type HeaderInfo = {
 const genericTemplate = `
 ********************************************************************************
 *                                                                              *
-*                                                         :::      ::::::::    *
-*    $FILENAME__________________________________        :+:      :+:    :+:    *
-*                                                     +:+ +:+         +:+      *
-*    By: $AUTHOR________________________________    +#+  +:+       +#+         *
-*                                                 +#+#+#+#+#+   +#+            *
-*    Created: $CREATEDAT_________ by $CREATEDBY_       #+#    #+#              *
-*    Updated: $UPDATEDAT_________ by $UPDATEDBY_      ###   ########.sp        *
+*                                                           ⢀⣤⣤⣤⠄⢠⣤⣤⠄⣤⣤⣤⡄ *
+*    $FILENAME__________________________________          ⣠⣾⣿⡿⠋  ⢸⡿⠋ ⣿⣿⣿⡇ *
+*                                                     ⢀⣴⣾⣿⠟⠁       ⢀⣴⣿⣿⠟⠁ *
+*    $AUTHOR____________________________________   ⣠⣾⣿⡿⠋         ⣠⣾⣿⡿⠋     *
+*                                                 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿  ⢸⣿⣿⣿ ⢀⣴⡇  *
+*    Criado em $CREATEDAT_______ por $CREATEDBY_  ⠛⠛⠛⠛⠛⠛⢻⣿⣿⣿  ⠸⠿⠿⠿⠴⠿⠿⠇  *
+*    Atualizado em $UPDATEDAT___ por $UPDATEDBY_          ⢸⣿⣿⣿      | RIO    *
 *                                                                              *
 ********************************************************************************
 
@@ -61,13 +61,13 @@ const pad = (value: string, width: number) =>
  * Stringify Date to correct format for header
  */
 const formatDate = (date: moment.Moment) =>
-  date.format('YYYY/MM/DD HH:mm:ss')
+  date.format('D/M/YY HH:mm:ss')
 
 /**
  * Get Date object from date string formatted for header
  */
 const parseDate = (date: string) =>
-  moment(date, 'YYYY/MM/DD HH:mm:ss')
+  moment(date, 'D/M/YY HH:mm:ss')
 
 /**
  * Check if language is supported
