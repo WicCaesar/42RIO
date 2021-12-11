@@ -1,9 +1,7 @@
-# Change Log
+# Registro de alterações
 
-All notable changes to the "sp-42header" extension will be documented in this file.
+Todas as mudanças relevantes da extensão 42RIO serão documentadas aqui.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Fase de testes]
 
-## [Unreleased]
-
-- Initial release
+9/12/21 Ajustes iniciais
