@@ -33,7 +33,7 @@ const getCurrentUser = () =>
  */
 const getCurrentUserMail = () =>
   vscode.workspace.getConfiguration()
-    .get('42header.email') || `${getCurrentUser()}@student.42.fr`
+    .get('42header.email') || `${getCurrentUser()}@student.42.rio`
 
 /**
  * Update HeaderInfo with last update author and date, and update filename
@@ -89,7 +89,7 @@ const insertHeaderHandler = () => {
     })
   else
     vscode.window.showInformationMessage(
-      `No header support for language ${document.languageId}`
+      `Não há cabeçalho disponível para a linguagem ${document.languageId}.`
     )
 }
 
