@@ -24,17 +24,17 @@ export type HeaderInfo = {
  * Template where each field name is prefixed by $ and is padded with _
  */
 const genericTemplate = `
-********************************************************************************
-                                                                                
-                                                             ⢀⣤⣤⣤⢠⣤⣤⠄⣤⣤⣤⡄   
-     $FILENAME__________________________________          ⣠⣾⣿⡿⠋  ⢸⡿⠋ ⣿⣿⣿⡇   
-                                                      ⢀⣴⣾⣿⠟⠁       ⢀⣴⣿⣿⠟⠁   
-     $AUTHOR____________________________________   ⣠⣾⣿⡿⠋         ⣠⣾⣿⡿⠋      
-                                                  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿  ⢸⣿⣿⣿  ⢀⣴⡇   
-     Criado em $CREATEDAT_______ por $CREATEDBY_  ⠛⠛⠛⠛⠛⠛⢻⣿⣿⣿  ⠸⠿⠿⠿⠴⠿⠿⠿   
-     Alterado em $UPDATEDAT_____ por $UPDATEDBY_          ⢸⣿⣿⣿        | RIO   
-                                                                                
-********************************************************************************
+/*                                                                              
+/                                                                               
+/                                                            ⢀⣤⣤⣤⢠⣤⣤⠄⣤⣤⣤⡄   
+/    $FILENAME__________________________________          ⣠⣾⣿⡿⠋  ⢸⡿⠋ ⣿⣿⣿⡇   
+/                                                     ⢀⣴⣾⣿⠟⠁       ⢀⣴⣿⣿⠟⠁   
+/    $AUTHOR____________________________________   ⣠⣾⣿⡿⠋         ⣠⣾⣿⡿⠋       
+/                                                 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿  ⢸⣿⣿⣿  ⢀⣴⡇   
+/    Criado em $CREATEDAT_______ por $CREATEDBY_  ⠛⠛⠛⠛⠛⠛⢻⣿⣿⣿  ⠸⠿⠿⠿⠴⠿⠿⠿    
+/    Alterado em $UPDATEDAT_____ por $UPDATEDBY_          ⢸⣿⣿⣿        | RIO    
+/                                                                               
+/                                                                             */
 
 `.substring(1)
 
